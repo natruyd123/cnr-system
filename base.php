@@ -9,7 +9,6 @@ require_once 'auth.php';
   <meta charset="UTF-8">
   <title>CNR System</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="/cnr_system/assets/custom.css">
 </head>
 <body>
   <div class="container-fluid">
@@ -26,11 +25,10 @@ require_once 'auth.php';
           }
         ?>
       </div>
-
-      <!-- Main Content -->
-      <div class="col-md-9 col-lg-10 p-4">
-        <?php include 'includes/header.php'; ?>
-      </div> <!-- end of main content -->
+        <!-- Main Content -->
+        <div class="col-md-9 col-lg-10 p-4">
+            <?php echo $content ?? "<p>No content loaded.</p>"; ?>
+        </div>
     </div>
   </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

@@ -6,22 +6,22 @@
   <hr>
   <ul class="nav nav-pills flex-column mb-auto">
     <li class="nav-item">
-      <a href="/cnr_system/admin/dashboard.php" class="nav-link active">Dashboard</a>
+      <a href="../admin/dashboard.php" class="nav-link active">Dashboard</a>
     </li>
     <li>
-      <a href="/cnr_system/admin/clients.php" class="nav-link text-dark">Clients</a>
+      <a href="../admin/clients.php" class="nav-link text-dark">Clients</a>
     </li>
     <li>
-      <a href="/cnr_system/admin/billing_template.php" class="nav-link text-dark">Billing Template</a>
+      <a href="../admin/billing_template.php" class="nav-link text-dark">Billing Template</a>
     </li>
     <li>
-      <a href="/cnr_system/admin/billing_input.php" class="nav-link text-dark">Billing Input</a>
+      <a href="../admin/billing_input.php" class="nav-link text-dark">Billing Input</a>
     </li>
     <li>
-      <a href="/cnr_system/admin/billing_sheet.php" class="nav-link text-dark">Billing Sheet</a>
+      <a href="../admin/billing_sheet.php" class="nav-link text-dark">Billing Sheet</a>
     </li>
     <li>
-      <a href="/cnr_system/admin/client_statement.php" class="nav-link text-dark">Client Statement</a>
+      <!-- <a href="../admin/client_statement.php" class="nav-link text-dark">Client Statement</a> -->
     </li>
   </ul>
   <hr>
